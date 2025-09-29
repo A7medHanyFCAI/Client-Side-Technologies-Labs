@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.ryadel.com/wp-content/uploads/2017/03/html5-js-css3-jquery-logo.png" alt="ITI Logo" width="200"/>
+  <img src="https://www.ryadel.com/wp-content/uploads/2017/03/html5-js-css3-jquery-logo.png" alt="ITI Logo" />
 </p>
 
 # Client-Side Course Labs – ITI  
@@ -8,7 +8,7 @@ This repository contains all the labs I worked on during the **Client-Side Devel
 The labs are organized by technology and by day for easier navigation.  
 
 ## 📂 Repository Structure  
-
+```
 .
 ├── HTML-CSS/         # Labs for HTML & CSS
 │   ├── Day2/
@@ -24,7 +24,7 @@ The labs are organized by technology and by day for easier navigation.
 │   ├── Day1/
 │   ├── Day2/
 │   └── ...
-
+```
 
 - **HTML-CSS** → Contains labs covering the basics of HTML and CSS.  
 - **jQuery Project** → Contains a todo list implementation using (HTML5,CSS3,jQuery).  
