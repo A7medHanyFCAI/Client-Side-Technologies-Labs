@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <table class="myTable">
+        <thead>
+          <tr>
+            <th>
+              Name <button class="sort nameAscend">↓</button
+              ><button class="sort namedescend">↑</button>
+            </th>
+            <th>
+              Position <button class="sort positionAscend">↓</button
+              ><button class="sort positiondescend">↑</button>
+            </th>
+            <th>
+              Office <button class="sort officeAscend">↓</button
+              ><button class="sort officedescend">↑</button>
+            </th>
+            <th>
+              Age <button class="sort ageAscend">↓</button
+              ><button class="sort agedescend">↑</button>
+            </th>
+            <th>
+              Start date <button class="sort dateAscend">↓</button
+              ><button class="sort datedescend">↑</button>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="body"></tbody>
+      </table>
+
+      <button class="add">Add</button>
+
+
+
+      <div class="form hidden">
+
+        <button class="close">&times;</button>
+
+
+      <form>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name.."
+        />
+
+        <label for="position">Position</label>
+        <input
+          type="text"
+          id="position"
+          name="position"
+          placeholder="Your position.."
+        />
+
+        <label for="office">Office</label>
+        <input
+          type="text"
+          id="office"
+          name="office"
+          placeholder="Your office.."
+        />
+        <label for="age">Age</label>
+       <input type="number" id="age" name="age" min="18" max="70">
+
+        <label for="date">Start Date</label>
+        <input type="date" id="date" name="date">
+
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+
+
+      </div>
+      
+
+      <div class="overlay hidden"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 30px;
+    }
+
+    .controls {
+      margin-bottom: 20px;
+    }
+
+    .controls input {
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    .controls button {
+      padding: 8px 15px;
+      margin-left: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 10px;
+      min-height: 80px;
+      border: 2px dashed #ccc;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .node {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      animation-name: appear ;
+       animation-duration: 3s;
+       animation-timing-function: ease-out;
+    }
+
+    .value {
+      padding: 15px 20px;
+      border-radius: 10px;
+      background: royalblue;
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .arrow {
+      font-size: 24px;
+      margin: 0 8px;
+      color: black;
+
+    }
+
+@keyframes appear{
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity: 0.25;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        75%{
+            opacity: 0.75;
+        }
+        100%{
+            opacity: 1;
+        }
+    }

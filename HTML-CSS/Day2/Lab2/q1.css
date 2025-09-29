@@ -1,0 +1,34 @@
+/* select p elements and make them red */
+p{
+    color: red;
+}
+/* select p and div elements  */
+p,div{
+    background-color: red;
+}
+/* select p with class mainClass direct child for div with id myDiv and make it styled  */
+#myDiv > p.mainClass {
+
+  color: blue;
+
+}
+/* select all p inside div and style them  */
+div p{
+     color : red ;   
+}
+/* 5- select input with type text element with class myClass */
+input[type="text"].myClass{
+    color : red ;   
+}
+/* 6- select span elements after div  */
+div ~ span{
+    background-color: red;
+}
+/* 7- select p with class myClass  */
+p.myClass{
+    color:red;
+}
+/* 8- select div with id myDiv  */
+#myDiv{
+    background-color: red;
+}
