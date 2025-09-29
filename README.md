@@ -42,7 +42,7 @@ This repo is mainly for:
 Here are two projects I built during the course, deployed on **GitHub Pages**:  
 
 - 📘 **Linked List Visualizer** (HTML5, CSS3, JavaScript)  
-  👉 [View Project](https://github.com/A7medHanyFCAI/Client-Side-Technologies-Labs/tree/main/JS/Day7/LinkedList/index.html)  
+  👉 [View Project](https://a7medhanyfcai.github.io/Client-Side-Technologies-Labs/JS/Day7/LinkedList/index.html)  
 
 - ✅ **To-Do List App** (HTML5, CSS3, jQuery)  
-  👉 [View Project](https://github.com/A7medHanyFCAI/Client-Side-Technologies-Labs/tree/main/jQuery%20Project/index.html)  
+  👉 [View Project](https://a7medhanyfcai.github.io/Client-Side-Technologies-Labs/jQuery%20Project/index.html)  
